@@ -1,0 +1,33 @@
+{
+  "name": "ltsn_jexxie",
+  "version": "1.0.0",
+  "description": "CommandLine Tool for Node LTS",
+  "main": "index.js",
+  "bin": {
+    "ltsn": "bin/ltsn"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jexxie/ltsn.git"
+  },
+  "keywords": [
+    "Node",
+    "LTS"
+  ],
+  "author": "Jexxie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jexxie/ltsn/issues"
+  },
+  "homepage": "https://github.com/Jexxie/ltsn#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cli-color": "^1.4.0",
+    "cli-table": "^0.3.1",
+    "compare-versions": "^3.4.0",
+    "terminal-link": "^1.2.0"
+  }
+}
